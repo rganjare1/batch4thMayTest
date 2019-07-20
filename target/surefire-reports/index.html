@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>E:\Study Material\Automation_World-Training\workspace\Batch4thMayMavenProject\src\test\resources\runner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 1 failed,  3 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.companyName.projectName.module.testCases.TC003_Create_An_Account" hash-for-method="TC003_Create_an_Account({Email_ID=test.test1236@gmail.com, Password=Rahul#126, Iteration=1, Phone_Numer=9850658748, First_Na...)">TC003_Create_an_Account({Email_ID=test.test1236@gmail.com, Password=Rahul#126, Iteration=1, Phone_Numer=9850658748, First_Na...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.companyName.projectName.module.testCases.TC002_Create_An_Account" hash-for-method="TC002_Create_an_Account">TC002_Create_an_Account</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.companyName.projectName.module.testCases.TC003_Create_An_Account" hash-for-method="TC003_Create_an_Account({Email_ID=test.test1236@gmail.com, Password=Rahul#126, Iteration=1, Phone_Numer=9850658748, First_Na...)">TC003_Create_an_Account({Email_ID=test.test1236@gmail.com, Password=Rahul#126, Iteration=1, Phone_Numer=9850658748, First_Na...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.companyName.projectName.module.testCases.TC004_Create_An_Account" hash-for-method="TC004_Create_an_Account">TC004_Create_an_Account</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.companyName.projectName.module.testCases.TC001_Create_An_Account" hash-for-method="TC001_Create_an_Account({Email_ID=test.test1234@gmail.com, Password=Rahul#124, Iteration=1, Phone_Numer=9850658748, First_Na...)">TC001_Create_an_Account({Email_ID=test.test1234@gmail.com, Password=Rahul#124, Iteration=1, Phone_Numer=9850658748, First_Na...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.companyName.projectName.module.testCases.TC005_Create_An_Account" hash-for-method="TC005_Create_an_Account({Email_ID=test.test1234@gmail.com, Password=Rahul#124, Iteration=1, Phone_Numer=9850658748, First_Na...)">TC005_Create_an_Account({Email_ID=test.test1234@gmail.com, Password=Rahul#124, Iteration=1, Phone_Numer=9850658748, First_Na...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.companyName.projectName.module.testCases.TC003_Create_An_Account</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC003_Create_an_Account({Email_ID=test.test1236@gmail.com, Password=Rahul#126, Iteration=1, Phone_Numer=9850658748, First_Na...)">
+                  </a> <!-- TC003_Create_an_Account({Email_ID=test.test1236@gmail.com, Password=Rahul#126, Iteration=1, Phone_Numer=9850658748, First_Na...) -->
+                  <span class="method-name">TC003_Create_an_Account</span>
+                  <span class="parameters">({Email_ID=test.test1236@gmail.com, Password=Rahul#126, Iteration=1, Phone_Numer=9850658748, First_Name=Ganesh, Address=Mumbai, Last_Name=Bhosale})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Please enter all required fields
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.companyName.projectName.module.pages.LandingPage.registerUser(LandingPage.java:105)
+	at com.companyName.projectName.module.testCases.TC003_Create_An_Account.TC003_Create_an_Account(TC003_Create_An_Account.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1215)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.companyName.projectName.module.testCases.TC003_Create_An_Account</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC003_Create_an_Account({Email_ID=test.test1236@gmail.com, Password=Rahul#126, Iteration=1, Phone_Numer=9850658748, First_Na...)">
+                  </a> <!-- TC003_Create_an_Account({Email_ID=test.test1236@gmail.com, Password=Rahul#126, Iteration=1, Phone_Numer=9850658748, First_Na...) -->
+                  <span class="method-name">TC003_Create_an_Account</span>
+                  <span class="parameters">({Email_ID=test.test1236@gmail.com, Password=Rahul#126, Iteration=1, Phone_Numer=9850658748, First_Name=Ganesh, Address=Mumbai, Last_Name=Bhosale})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Please enter all required fields
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.companyName.projectName.module.pages.LandingPage.registerUser(LandingPage.java:105)
+	at com.companyName.projectName.module.testCases.TC003_Create_An_Account.TC003_Create_an_Account(TC003_Create_An_Account.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.companyName.projectName.module.testCases.TC004_Create_An_Account</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC004_Create_an_Account">
+                  </a> <!-- TC004_Create_an_Account -->
+                  <span class="method-name">TC004_Create_an_Account</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping Test case as it&apos;s Run Mode is set to N
+	at com.companyName.projectName.module.testCases.TC004_Create_An_Account.isSkip(TC004_Create_An_Account.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.companyName.projectName.module.testCases.TC002_Create_An_Account</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC002_Create_an_Account">
+                  </a> <!-- TC002_Create_an_Account -->
+                  <span class="method-name">TC002_Create_an_Account</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping Test case as it&apos;s Run Mode is set to N
+	at com.companyName.projectName.module.testCases.TC002_Create_An_Account.isSkip(TC002_Create_An_Account.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.companyName.projectName.module.testCases.TC001_Create_An_Account</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC001_Create_an_Account({Email_ID=test.test1234@gmail.com, Password=Rahul#124, Iteration=1, Phone_Numer=9850658748, First_Na...)">
+                  </a> <!-- TC001_Create_an_Account({Email_ID=test.test1234@gmail.com, Password=Rahul#124, Iteration=1, Phone_Numer=9850658748, First_Na...) -->
+                  <span class="method-name">TC001_Create_an_Account</span>
+                  <span class="parameters">({Email_ID=test.test1234@gmail.com, Password=Rahul#124, Iteration=1, Phone_Numer=9850658748, First_Name=Rahul, Address=pune, Last_Name=Ganjare})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.companyName.projectName.module.testCases.TC005_Create_An_Account</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC005_Create_an_Account({Email_ID=test.test1234@gmail.com, Password=Rahul#124, Iteration=1, Phone_Numer=9850658748, First_Na...)">
+                  </a> <!-- TC005_Create_an_Account({Email_ID=test.test1234@gmail.com, Password=Rahul#124, Iteration=1, Phone_Numer=9850658748, First_Na...) -->
+                  <span class="method-name">TC005_Create_an_Account</span>
+                  <span class="parameters">({Email_ID=test.test1234@gmail.com, Password=Rahul#124, Iteration=1, Phone_Numer=9850658748, First_Name=Sneha, Address=Singapoor, Last_Name=Soni})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Study Material\Automation_World-Training\workspace\Batch4thMayMavenProject\src\test\resources\runner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Default suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.companyName.projectName.module.customListeners.Listener&quot;/&gt;
+    &lt;listener class-name=&quot;com.companyName.projectName.module.customListeners.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.companyName.projectName.module.testCases.TC001_Create_An_Account&quot;/&gt;
+      &lt;class name=&quot;com.companyName.projectName.module.testCases.TC002_Create_An_Account&quot;/&gt;
+      &lt;class name=&quot;com.companyName.projectName.module.testCases.TC003_Create_An_Account&quot;/&gt;
+      &lt;class name=&quot;com.companyName.projectName.module.testCases.TC004_Create_An_Account&quot;/&gt;
+      &lt;class name=&quot;com.companyName.projectName.module.testCases.TC005_Create_An_Account&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC003_Create_an_Account')
+data.setCell(0, 2, 'com.companyName.projectName.module.testCases.TC003_Create_An_Account')
+data.setCell(0, 3, 24606);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC003_Create_an_Account')
+data.setCell(1, 2, 'com.companyName.projectName.module.testCases.TC003_Create_An_Account')
+data.setCell(1, 3, 23731);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC001_Create_an_Account')
+data.setCell(2, 2, 'com.companyName.projectName.module.testCases.TC001_Create_An_Account')
+data.setCell(2, 3, 23405);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC005_Create_an_Account')
+data.setCell(3, 2, 'com.companyName.projectName.module.testCases.TC005_Create_An_Account')
+data.setCell(3, 3, 22754);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC002_Create_an_Account')
+data.setCell(4, 2, 'com.companyName.projectName.module.testCases.TC002_Create_An_Account')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC004_Create_an_Account')
+data.setCell(5, 2, 'com.companyName.projectName.module.testCases.TC004_Create_An_Account')
+data.setCell(5, 3, 0);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC001_Create_an_Account({Email_ID=test.test1234@gmail.com, Password=Rahul#124, Iteration=1, Phone_Numer=9850658748, First_Na...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">******* Chrome Driver has been launched ********</span>
+                <span class="reporter-method-output">User is redirested to Application URL:- http://automationpractice.com/index.php</span>
+                <span class="reporter-method-output">Starting execution of Test Case:- TC001_Create_an_Account</span>
+                <span class="reporter-method-output">The Title of the page is :-My Store</span>
+                <span class="reporter-method-output">signIn button is clicked.</span>
+                <span class="reporter-method-output">Email ID has been entered.</span>
+                <span class="reporter-method-output">create an account button is clicked.</span>
+                <span class="reporter-method-output">Mr. Title is selected.</span>
+                <span class="reporter-method-output">first_Name has been entered.</span>
+                <span class="reporter-method-output">last_Name has been entered.</span>
+                <span class="reporter-method-output">password has been entered.</span>
+                <span class="reporter-method-output">*** Script execution for TC001_Create_an_Account is completed. *** </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC005_Create_an_Account({Email_ID=test.test1234@gmail.com, Password=Rahul#124, Iteration=1, Phone_Numer=9850658748, First_Na...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">******* Chrome Driver has been launched ********</span>
+                <span class="reporter-method-output">User is redirested to Application URL:- http://automationpractice.com/index.php</span>
+                <span class="reporter-method-output">Starting execution of Test Case:- TC005_Create_an_Account</span>
+                <span class="reporter-method-output">The Title of the page is :-My Store</span>
+                <span class="reporter-method-output">signIn button is clicked.</span>
+                <span class="reporter-method-output">Email ID has been entered.</span>
+                <span class="reporter-method-output">create an account button is clicked.</span>
+                <span class="reporter-method-output">Mr. Title is selected.</span>
+                <span class="reporter-method-output">first_Name has been entered.</span>
+                <span class="reporter-method-output">last_Name has been entered.</span>
+                <span class="reporter-method-output">password has been entered.</span>
+                <span class="reporter-method-output">*** Script execution for TC005_Create_an_Account is completed. *** </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC003_Create_an_Account({Email_ID=test.test1236@gmail.com, Password=Rahul#126, Iteration=1, Phone_Numer=9850658748, First_Na...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">******* Chrome Driver has been launched ********</span>
+                <span class="reporter-method-output">User is redirested to Application URL:- http://automationpractice.com/index.php</span>
+                <span class="reporter-method-output">Starting execution of Test Case:- TC003_Create_an_Account</span>
+                <span class="reporter-method-output">The Title of the page is :-My Store</span>
+                <span class="reporter-method-output">signIn button is clicked.</span>
+                <span class="reporter-method-output">Email ID has been entered.</span>
+                <span class="reporter-method-output">create an account button is clicked.</span>
+                <span class="reporter-method-output">Mr. Title is selected.</span>
+                <span class="reporter-method-output">first_Name has been entered.</span>
+                <span class="reporter-method-output">last_Name has been entered.</span>
+                <span class="reporter-method-output">password has been entered.</span>
+                <span class="reporter-method-output">Register button is clicked.</span>
+                <span class="reporter-method-output">Test case fail due to:- java.lang.AssertionError: Please enter all required fields</span>
+                <span class="reporter-method-output"><a href='E:\Study Material\Automation_World-Training\workspace\Batch4thMayMavenProject\src\test\resources\screenShots\Failed\TC003_Create_an_Account_20_07_2019_11_29_20.png'> <img src='E:\Study Material\Automation_World-Training\workspace\Batch4thMayMavenProject\src\test\resources\screenShots\Failed\TC003_Create_an_Account_20_07_2019_11_29_20.png' height='100' width='100'/> </a></span>
+                <span class="reporter-method-output">*** Script execution for TC003_Create_an_Account is Failed. *** </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC002_Create_an_Account</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TC002_Create_an_Account Test case is skipped by listener as Run mode set to N</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC003_Create_an_Account({Email_ID=test.test1236@gmail.com, Password=Rahul#126, Iteration=1, Phone_Numer=9850658748, First_Na...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">******* Chrome Driver has been launched ********</span>
+                <span class="reporter-method-output">User is redirested to Application URL:- http://automationpractice.com/index.php</span>
+                <span class="reporter-method-output">Starting execution of Test Case:- TC003_Create_an_Account</span>
+                <span class="reporter-method-output">The Title of the page is :-My Store</span>
+                <span class="reporter-method-output">signIn button is clicked.</span>
+                <span class="reporter-method-output">Email ID has been entered.</span>
+                <span class="reporter-method-output">create an account button is clicked.</span>
+                <span class="reporter-method-output">Mr. Title is selected.</span>
+                <span class="reporter-method-output">first_Name has been entered.</span>
+                <span class="reporter-method-output">last_Name has been entered.</span>
+                <span class="reporter-method-output">password has been entered.</span>
+                <span class="reporter-method-output">Register button is clicked.</span>
+                <span class="reporter-method-output">Retrying test TC003_Create_an_Account with status FAILURE for the 1 time(s).</span>
+                <span class="reporter-method-output">TC003_Create_an_Account Test case is skipped by listener as Run mode set to N</span>
+                <span class="reporter-method-output">Test case is skipped by listener due to:-:TC003_Create_an_Account</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC004_Create_an_Account</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TC004_Create_an_Account Test case is skipped by listener as Run mode set to N</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.companyName.projectName.module.testCases.TC005_Create_An_Account</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">writeIntoExtentReport</span>
+                <br/>
+                <span class="ignored-method-name">loadFilesAndsetUpReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.companyName.projectName.module.testCases.TC003_Create_An_Account</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">writeIntoExtentReport</span>
+                <br/>
+                <span class="ignored-method-name">loadFilesAndsetUpReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.companyName.projectName.module.testCases.TC004_Create_An_Account</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">writeIntoExtentReport</span>
+                <br/>
+                <span class="ignored-method-name">loadFilesAndsetUpReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.companyName.projectName.module.testCases.TC002_Create_An_Account</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">writeIntoExtentReport</span>
+                <br/>
+                <span class="ignored-method-name">loadFilesAndsetUpReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.companyName.projectName.module.testCases.TC001_Create_An_Account</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">loadFilesAndsetUpReports</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">isSkip</span>
+                <span class="method-start">1512 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC001_Create_an_Account({Email_ID=test.test1234@gmail.com, Password=Rahul#124, Iteration=1, Phone_Numer=9850658748, First_Na...)</span>
+                <span class="method-start">1527 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.companyName.projectName.module.testCases.TC002_Create_An_Account</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">isSkip</span>
+                <span class="method-start">26323 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.companyName.projectName.module.testCases.TC003_Create_An_Account</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">isSkip</span>
+                <span class="method-start">26323 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC003_Create_an_Account({Email_ID=test.test1236@gmail.com, Password=Rahul#126, Iteration=1, Phone_Numer=9850658748, First_Na...)</span>
+                <span class="method-start">26344 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC003_Create_an_Account({Email_ID=test.test1236@gmail.com, Password=Rahul#126, Iteration=1, Phone_Numer=9850658748, First_Na...)</span>
+                <span class="method-start">51875 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.companyName.projectName.module.testCases.TC004_Create_An_Account</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">isSkip</span>
+                <span class="method-start">76963 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.companyName.projectName.module.testCases.TC005_Create_An_Account</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC005_Create_an_Account({Email_ID=test.test1234@gmail.com, Password=Rahul#124, Iteration=1, Phone_Numer=9850658748, First_Na...)</span>
+                <span class="method-start">76979 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">isSkip</span>
+                <span class="method-start">76979 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.companyName.projectName.module.testCases.TC001_Create_An_Account</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">writeIntoExtentReport</span>
+                <span class="method-start">100774 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

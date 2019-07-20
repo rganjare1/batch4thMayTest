@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Default suite]">
+  <listeners>
+    <listener class-name="com.companyName.projectName.module.customListeners.Listener"/>
+    <listener class-name="com.companyName.projectName.module.customListeners.RetryListener"/>
+  </listeners>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.companyName.projectName.module.testCases.TC003_Create_An_Account">
+        <methods>
+          <include name="writeIntoExtentReport"/>
+          <include name="isSkip"/>
+          <include name="TC003_Create_an_Account" invocation-numbers="0 0"/>
+          <include name="loadFilesAndsetUpReports"/>
+        </methods>
+      </class> <!-- com.companyName.projectName.module.testCases.TC003_Create_An_Account -->
+      <class name="com.companyName.projectName.module.testCases.TC004_Create_An_Account">
+        <methods>
+          <include name="writeIntoExtentReport"/>
+          <include name="isSkip"/>
+          <include name="loadFilesAndsetUpReports"/>
+          <include name="TC004_Create_an_Account"/>
+        </methods>
+      </class> <!-- com.companyName.projectName.module.testCases.TC004_Create_An_Account -->
+      <class name="com.companyName.projectName.module.testCases.TC002_Create_An_Account">
+        <methods>
+          <include name="writeIntoExtentReport"/>
+          <include name="isSkip"/>
+          <include name="loadFilesAndsetUpReports"/>
+          <include name="TC002_Create_an_Account"/>
+        </methods>
+      </class> <!-- com.companyName.projectName.module.testCases.TC002_Create_An_Account -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

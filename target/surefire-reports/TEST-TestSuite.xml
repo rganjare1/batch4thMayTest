@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="18.851" tests="8" errors="0" skipped="5" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jre1.8.0_161\bin"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\Study Material\Automation_World-Training\workspace\Batch4thMayMavenProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Study Material\Automation_World-Training\workspace\Batch4thMayMavenProject"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jre1.8.0_161\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\Study Material\Automation_World-Training\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8723825860217590709.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jre1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre1.8.0_161/bin/client;C:/Program Files (x86)/Java/jre1.8.0_161/bin;C:/Program Files (x86)/Java/jre1.8.0_161/lib/i386;C:\Users\admin\AppData\Local\Android\Sdk\tools\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jdk1.8.0_161\bin;E:\Study Material\Selenium\Jar files\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Users\admin\AppData\Local\Android\Sdk\platform-tools;C:\Users\admin\AppData\Local\Android\Sdk\tools;C:\Program Files (x86)\Silk\SilkTest;C:\Program Files (x86)\Silk\SilkTest\ng\gui;;C:\Program Files\Docker Toolbox;E:\Study Material\Softwares\eclipse_Oxygen_32bit;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="admin"/>
+    <property name="java.class.path" value="/E:/Study Material/Softwares/eclipse_Oxygen_32bit/plugins/org.eclipse.m2e.maven.runtime_1.8.0.20170516-2042/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jre1.8.0_161"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s E:\Users\admin\.m2\settings.xml test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jre1.8.0_161\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_161\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_161\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_161\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\Study Material\Automation_World-Training\workspace\Batch4thMayMavenProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="TC001_Create_an_Account" classname="com.companyName.projectName.module.testCases.TC001_Create_An_Account" time="9.128"/>
+  <testcase name="isSkip" classname="com.companyName.projectName.module.testCases.TC002_Create_An_Account" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="TC002_Create_an_Account" classname="com.companyName.projectName.module.testCases.TC002_Create_An_Account" time="0">
+    <skipped/>
+    <system-out><![CDATA[TC002_Create_an_Account test case starts from row number :- 5
+Total number of columns are:- 7
+Total number of iterations/rows are :- 1
+***************************************************
+
+----{Email_ID=test.test1235@gmail.com, Password=Rahul#125, Iteration=1, Phone_Numer=2587456547, First_Name=Namita, Address=USA, Last_Name=Wikhe}
+TC002_Create_an_Account Test case is skipped by listener as Run mode set to N
+]]></system-out>
+  </testcase>
+  <testcase name="TC003_Create_an_Account" classname="com.companyName.projectName.module.testCases.TC003_Create_An_Account" time="0">
+    <skipped/>
+    <system-out><![CDATA[TC003_Create_an_Account test case starts from row number :- 9
+Total number of columns are:- 7
+Total number of iterations/rows are :- 1
+***************************************************
+
+----{Email_ID=test.test1236@gmail.com, Password=Rahul#126, Iteration=1, Phone_Numer=9850658748, First_Name=Ganesh, Address=Mumbai, Last_Name=Bhosale}
+Address of the Driver:- ChromeDriver: chrome on XP (0472acb79d477b226d59ca52a301b345)
+TC003_Create_an_Account Test case is skipped by listener as Run mode set to N
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 15813
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jul 20, 2019 11:28:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="TC003_Create_an_Account" classname="com.companyName.projectName.module.testCases.TC003_Create_An_Account" time="11.197">
+    <failure message="Please enter all required fields" type="java.lang.AssertionError">java.lang.AssertionError: Please enter all required fields
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.companyName.projectName.module.pages.LandingPage.registerUser(LandingPage.java:105)
+	at com.companyName.projectName.module.testCases.TC003_Create_An_Account.TC003_Create_an_Account(TC003_Create_An_Account.java:31)
+</failure>
+    <system-out><![CDATA[TC003_Create_an_Account test case starts from row number :- 9
+Total number of columns are:- 7
+Total number of iterations/rows are :- 1
+***************************************************
+
+----{Email_ID=test.test1236@gmail.com, Password=Rahul#126, Iteration=1, Phone_Numer=9850658748, First_Name=Ganesh, Address=Mumbai, Last_Name=Bhosale}
+Address of the Driver:- ChromeDriver: chrome on XP (8be53e893964d36eb51979d8ad470c21)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 19463
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jul 20, 2019 11:28:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="isSkip" classname="com.companyName.projectName.module.testCases.TC004_Create_An_Account" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="TC004_Create_an_Account" classname="com.companyName.projectName.module.testCases.TC004_Create_An_Account" time="0">
+    <skipped/>
+    <system-out><![CDATA[TC004_Create_an_Account test case starts from row number :- 13
+Total number of columns are:- 7
+Total number of iterations/rows are :- 1
+***************************************************
+
+----{Email_ID=test.test1237@gmail.com, Password=Rahul#127, Iteration=1, Phone_Numer=2587456547, First_Name=Snehal, Address=Delhi, Last_Name=chopade}
+TC004_Create_an_Account Test case is skipped by listener as Run mode set to N
+]]></system-out>
+  </testcase>
+  <testcase name="TC005_Create_an_Account" classname="com.companyName.projectName.module.testCases.TC005_Create_An_Account" time="9.723"/>
+</testsuite>

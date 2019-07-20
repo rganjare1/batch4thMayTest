@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 102.063 sec <<< FAILURE! - in TestSuite
+TC003_Create_an_Account(com.companyName.projectName.module.testCases.TC003_Create_An_Account)  Time elapsed: 11.197 sec  <<< FAILURE!
+java.lang.AssertionError: Please enter all required fields
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.companyName.projectName.module.pages.LandingPage.registerUser(LandingPage.java:105)
+	at com.companyName.projectName.module.testCases.TC003_Create_An_Account.TC003_Create_an_Account(TC003_Create_An_Account.java:31)
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression suite]">
+  <listeners>
+    <listener class-name="com.companyName.projectName.module.customListners.Listener"/>
+    <listener class-name="com.companyName.projectName.module.customListners.RetryListener"/>
+  </listeners>
+  <test name="Fuctional testing(failed)">
+    <classes>
+      <class name="com.companyName.projectName.module.testCases.TC005_Create_An_Account">
+        <methods>
+          <include name="TC005_Create_an_Account"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.companyName.projectName.module.testCases.TC005_Create_An_Account -->
+      <class name="com.companyName.projectName.module.testCases.TC001_Create_An_Account">
+        <methods>
+          <include name="writeIntoExtentReport"/>
+          <include name="isSkip"/>
+          <include name="loadFilesAndsetUpReports"/>
+        </methods>
+      </class> <!-- com.companyName.projectName.module.testCases.TC001_Create_An_Account -->
+      <class name="com.companyName.projectName.module.testCases.TC002_Create_An_Account">
+        <methods>
+          <include name="isSkip"/>
+          <include name="TC002_Create_an_Account"/>
+        </methods>
+      </class> <!-- com.companyName.projectName.module.testCases.TC002_Create_An_Account -->
+      <class name="com.companyName.projectName.module.testCases.TC003_Create_An_Account">
+        <methods>
+          <include name="isSkip"/>
+          <include name="TC003_Create_an_Account" invocation-numbers="0 0"/>
+        </methods>
+      </class> <!-- com.companyName.projectName.module.testCases.TC003_Create_An_Account -->
+      <class name="com.companyName.projectName.module.testCases.TC004_Create_An_Account">
+        <methods>
+          <include name="isSkip"/>
+          <include name="TC004_Create_an_Account"/>
+        </methods>
+      </class> <!-- com.companyName.projectName.module.testCases.TC004_Create_An_Account -->
+    </classes>
+  </test> <!-- Fuctional testing(failed) -->
+</suite> <!-- Failed suite [Regression suite] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+
+	<listeners>
+		<listener class-name="com.companyName.projectName.module.customListeners.Listener" />
+		<listener class-name="com.companyName.projectName.module.customListeners.RetryListener" />
+	</listeners>
+
+	<test verbose="2" name="Default test">
+		<classes>
+			<class
+				name="com.companyName.projectName.module.testCases.TC001_Create_An_Account" />
+			<class
+				name="com.companyName.projectName.module.testCases.TC002_Create_An_Account" />
+			<class
+				name="com.companyName.projectName.module.testCases.TC003_Create_An_Account" />
+			<class
+				name="com.companyName.projectName.module.testCases.TC004_Create_An_Account" />
+			<class
+				name="com.companyName.projectName.module.testCases.TC005_Create_An_Account" />
+		</classes>
+	</test> <!-- Default test -->
+</suite> <!-- Default suite -->
